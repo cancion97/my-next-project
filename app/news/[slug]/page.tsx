@@ -5,7 +5,7 @@ import ButtonLink from "@/app/_components/ButtonLink";
 import { notFound } from "next/navigation";
 import SearchField from "@/app/_components/SearchField/SearchField";
 
-export const revalidate = 0;
+export const revalidate = 60;
 
 type Props = {
   params: {
